@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style tefi.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Dashboard</h1>
+        <div class="user-info">
+            <h2>Welcome, <span id="username"></span></h2>
+            <p>Your data balance: <span id="data-balance"></span> GB</p>
+        </div>
+        <form id="deposit-form" class="form animated-form">
+            <input type="number" name="deposit-amount" placeholder="Deposit Data (GB)" required>
+            <button type="submit" class="btn">Deposit</button>
+        </form>
+        <form id="withdraw-form" class="form animated-form">
+            <input type="number" name="withdraw-amount" placeholder="Withdraw Data (GB)" required>
+            <button type="submit" class="btn">Withdraw</button>
+        </form>
+    </div>
+    <script src="dashboard tefi.js"></script>
+</body>
